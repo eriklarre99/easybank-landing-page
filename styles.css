@@ -91,11 +91,11 @@ body.mobile-nav-open{
     display: flex;
     align-items: flex-end;
     justify-content: center;
-    background-color: var(--verylightgray);
     background: url("./images/bg-intro-mobile.svg");
     background-repeat: no-repeat;
     background-position: 100% -30%;
     background-size: contain;
+    background-color: var(--verylightgray);
     overflow: hidden;
     position: relative;
     min-height: calc(300px + 100vw);
@@ -400,6 +400,7 @@ h3.header{
         background: url("./images/bg-intro-desktop.svg");
         background-position: top -200px right -600px;
         background-repeat: no-repeat;
+        background-color: var(--verylightgray);
         overflow: visible;
         position: relative;
         min-height: initial;
